@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #21846c;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+.navList li a {
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.cartBtnDiv {
+  background-color: #0a2411;
+  border: none;
+  outline: none;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.cartBtnDiv p {
+  font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
